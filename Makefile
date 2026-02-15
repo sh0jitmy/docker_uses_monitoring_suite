@@ -10,4 +10,4 @@ include includes/go/common.mk
 
 
 
-tools: 
+tools: dev-tools 
