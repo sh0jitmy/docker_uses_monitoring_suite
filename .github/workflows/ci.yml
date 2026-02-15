@@ -75,6 +75,11 @@ jobs:
         with:
           go-version: ${{ matrix['go-version'] }}
 
+
+      - name: Setup tools
+        run: | 
+         make tools 
+
       - name: make test
         run: |
           make test
